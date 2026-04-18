@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Guía paso a paso Control Parental</title>
+
+<style>
+body{
+  font-family: Arial, sans-serif;
+  background:#0f172a;
+  color:white;
+  margin:0;
+  padding:20px;
+}
+
+h1{text-align:center;color:#38bdf8;}
+
+.container{max-width:1000px;margin:auto;}
+
+.section{
+  margin:15px 0;
+  border-radius:10px;
+  overflow:hidden;
+  background:#1e293b;
+}
+
+.header{
+  padding:15px;
+  cursor:pointer;
+  font-weight:bold;
+  background:#334155;
+}
+
+.content{
+  display:none;
+  padding:15px;
+  background:#020617;
+}
+
+.step{
+  background:#0f172a;
+  padding:10px;
+  margin:10px 0;
+  border-left:4px solid #38bdf8;
+}
+
+.tip{
+  background:#022c22;
+  padding:10px;
+  border-radius:8px;
+  margin-top:10px;
+}
+
+.warning{
+  background:#7f1d1d;
+  padding:10px;
+  border-radius:8px;
+  margin-top:10px;
+}
+
+button{
+  margin-top:10px;
+  padding:10px;
+  border:none;
+  border-radius:8px;
+  cursor:pointer;
+}
+
+</style>
+
+<script>
+function toggle(id){
+  let el = document.getElementById(id);
+  el.style.display = el.style.display === "block" ? "none" : "block";
+}
+</script>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🛡️ GUÍA PASO A PASO CONTROL PARENTAL</h1>
+
+<p style="text-align:center;">Sigue estos pasos de forma tranquila. No necesitas saber de tecnología para hacerlo.</p>
+
+<!-- ANDROID -->
+<div class="section">
+<div class="header" onclick="toggle('android')">📱 ANDROID – GOOGLE FAMILY LINK</div>
+<div class="content" id="android">
+
+<h3>📥 PASO 1: DESCARGA</h3>
+<div class="step">En tu móvil (padre/madre), abre Play Store o App Store.</div>
+<div class="step">Busca: <strong>Google Family Link</strong></div>
+<div class="step">Pulsa instalar.</div>
+
+<h3>⚙️ PASO 2: CONFIGURACIÓN</h3>
+<div class="step">Abre la app.</div>
+<div class="step">Pulsa "Soy padre/madre".</div>
+<div class="step">Crea o usa tu cuenta de Google.</div>
+<div class="step">Sigue instrucciones para vincular el móvil del menor.</div>
+
+<h3>🎯 PASO 3: AJUSTES IMPORTANTES</h3>
+<div class="step">Tiempo de pantalla → limita horas diarias.</div>
+<div class="step">Hora de dormir → bloquea el móvil por la noche.</div>
+<div class="step">Apps → aprueba o bloquea descargas.</div>
+<div class="step">Contenido → filtra lo inapropiado.</div>
+
+<div class="tip">💡 Consejo: revisa el uso del móvil con tu hijo/a una vez por semana.</div>
+
+<div class="warning">⚠️ Error frecuente: instalar la app y no configurar límites.</div>
+
+</div>
+</div>
+
+<!-- IOS -->
+<div class="section">
+<div class="header" onclick="toggle('ios')">🍏 IPHONE / IPAD – TIEMPO DE USO</div>
+<div class="content" id="ios">
+
+<h3>📥 PASO 1: ACTIVAR</h3>
+<div class="step">En el móvil del menor: Ajustes → Tiempo de uso.</div>
+<div class="step">Pulsa "Activar".</div>
+
+<h3>🔐 PASO 2: SEGURIDAD</h3>
+<div class="step">Crea un código que el menor no conozca.</div>
+
+<h3>🎯 PASO 3: CONFIGURAR</h3>
+<div class="step">Tiempo de inactividad → bloquea por la noche.</div>
+<div class="step">Límite de apps → controla redes y juegos.</div>
+<div class="step">Contenido → restringe webs y películas.</div>
+
+<div class="tip">💡 Consejo: configura esto con tu hijo/a delante.</div>
+
+<div class="warning">⚠️ Error frecuente: no poner código y que el menor cambie todo.</div>
+
+</div>
+</div>
+
+<!-- NINTENDO -->
+<div class="section">
+<div class="header" onclick="toggle('nintendo')">🎮 NINTENDO SWITCH</div>
+<div class="content" id="nintendo">
+
+<h3>📥 PASO 1: DESCARGA</h3>
+<div class="step">Instala "Nintendo Parental Controls" en tu móvil.</div>
+
+<h3>🔗 PASO 2: VINCULAR</h3>
+<div class="step">En la consola → Configuración → Control parental.</div>
+<div class="step">Introduce el código que aparece en la app.</div>
+
+<h3>🎯 PASO 3: CONFIGURAR</h3>
+<div class="step">Limita tiempo de juego.</div>
+<div class="step">Bloquea juegos por edad.</div>
+<div class="step">Restringe juego online.</div>
+
+<div class="tip">💡 Consejo: revisa el tiempo de juego cada semana.</div>
+
+</div>
+</div>
+
+<!-- PLAYSTATION -->
+<div class="section">
+<div class="header" onclick="toggle('play')">🎮 PLAYSTATION</div>
+<div class="content" id="play">
+
+<h3>📥 PASO 1: CREAR CUENTA</h3>
+<div class="step">Crear cuenta PlayStation del adulto.</div>
+<div class="step">Añadir al menor en "Gestión familiar".</div>
+
+<h3>⚙️ PASO 2: CONFIGURAR</h3>
+<div class="step">Ir a Ajustes → Control parental.</div>
+<div class="step">Seleccionar al menor.</div>
+
+<h3>🎯 PASO 3: AJUSTES</h3>
+<div class="step">Limitar tiempo de juego.</div>
+<div class="step">Bloquear juegos por edad.</div>
+<div class="step">Desactivar compras.</div>
+
+<div class="tip">💡 Consejo: activa siempre el control de compras.</div>
+
+<div class="warning">⚠️ Error frecuente: dejar la tarjeta sin control.</div>
+
+</div>
+</div>
+
+<!-- MENSAJE FINAL -->
+<div class="section">
+<div class="content" style="display:block;text-align:center;">
+<h3>💬 MENSAJE FINAL</h3>
+<p>El control parental no sustituye la educación, la acompaña.</p>
+<p>Lo importante no es solo controlar, sino hablar, explicar y acompañar.</p>
+  <p>CEIP SAN JOSÉ - PALENCIANA</p>
+</div>
+</div>
+
+</div>
+
+</body>
+</html>
